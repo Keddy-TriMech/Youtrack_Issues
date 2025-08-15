@@ -1,7 +1,7 @@
 // JS (core logic)
 // You must include the Youtrack JS SDK or define the Youtrack class for this to work
-const baseUrl = "https://your-youtrack-instance"; // Set your YouTrack base URL
-const token = "YOUR_YOUTRACK_API_TOKEN"; // Set your YouTrack token
+const baseUrl = "https://trimech.youtrack.cloud/api/admin/customFieldSettings/customFields?fields=id,name,fieldType,projects(name)"; // Set your YouTrack base URL
+const token = "perm-c2tlZGR5.NjUtNQ==.cgdsyZCEOh2PauJMt488tb9ZgihhYM"; // Set your YouTrack token
 const yt = new Youtrack({ baseUrl, token });
 
 function getCF(issue, name) {
